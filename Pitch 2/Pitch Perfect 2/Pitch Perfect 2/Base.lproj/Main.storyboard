@@ -26,8 +26,7 @@
                                 <rect key="frame" x="110" y="256" width="155" height="155"/>
                                 <state key="normal" image="recordbutton "/>
                                 <connections>
-                                    <action selector="RecordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HwM-uU-24z"/>
-                                    <action selector="recordButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AZI-zc-tgZ"/>
+                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Dp5-i3-kwi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmt-ZF-ISQ" userLabel="RecordLabel">
@@ -57,9 +56,9 @@
                     <navigationItem key="navigationItem" id="Ohd-7v-drJ"/>
                     <connections>
                         <outlet property="RecordLabel" destination="Jmt-ZF-ISQ" id="cdE-lw-2OF"/>
-                        <outlet property="recordButton" destination="lA1-dV-TU3" id="w0a-TL-Z2s"/>
+                        <outlet property="recordButton" destination="lA1-dV-TU3" id="CaH-l2-k1g"/>
                         <outlet property="stopRecording" destination="BtP-WY-NEn" id="YJX-Py-kew"/>
-                        <segue destination="6l4-n9-SPb" kind="show" identifier="stopRecording " id="Qcd-cN-qPl"/>
+                        <segue destination="6l4-n9-SPb" kind="show" identifier="stopRecording" id="c5u-jN-bWI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
